@@ -1,4 +1,4 @@
-import { LineChart, Line, CartesianGrid, XAxis, YAxis } from 'recharts';
+import { LineChart, Line, CartesianGrid, XAxis, YAxis} from 'recharts';
 const Rechart = () => {
     const students = [
         { id: 1, name: 'John', mathMarks: 85, physicsMarks: 75 },
@@ -26,7 +26,7 @@ const Rechart = () => {
                         <Line type="monotoneX" dataKey={'physicsMarks'} stroke='#8ac926' />
                         <CartesianGrid stroke="#ccc" />
                         <XAxis dataKey="name" />
-                        <YAxis/>
+                        <YAxis />
                     </LineChart>
                 </div>
             </div>
